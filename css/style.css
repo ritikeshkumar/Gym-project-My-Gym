@@ -1,0 +1,80 @@
+
+        body{
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/pic.jpg');
+            font-family: 'Ubuntu', sans-serif;
+        }
+        .left{
+           /* border: 2px solid blue;  */
+           display: inline-block;
+           width: 15%; 
+           position: absolute;
+            top: 5px;
+            left: 10px;
+            text-align: center;
+            margin: 0px;
+        }
+        .mid{
+            /* border: 2px solid blue; */
+            width: 40%; 
+            margin: 30px auto;
+        }
+        .right{
+            /* border: 2px solid blue; */
+            display: inline-block; 
+            width: 15%; 
+            position: absolute;
+            top: 40px;
+            right: 24px;
+        }
+        img{
+            display: block;
+            width: 60%;
+            margin: auto;
+        }
+        .mid li{
+            display: inline;
+            
+        }
+        .mid li a{
+            text-decoration: none;
+            font-size: 23px;
+            padding: 10px;
+            cursor: pointer;
+        }
+        button{
+           display: inline; 
+           text-align: center;
+           border-radius: 10px;
+           font-size: 16px;
+           cursor: pointer;
+        }
+        .container{
+            width: 400px;
+            height: 400px;
+            border: 2px solid white;
+            position: absolute;
+            left: 156px;
+            top: 204px;
+            text-align: center;
+        }
+        .form input,.container button{
+            margin: 8px;
+            text-align: center;
+            color: black;
+            border-radius: 10px;
+            width: 247px;
+            font-size: 19px;
+        }
+        .left h3{
+            margin-top: 3px;
+        }
+        .mid li a:hover,.right button:hover{
+            background-color: gray;
+        }
+        .header li a:hover,.header li a.active{
+            text-decoration: underline;
+        }
+    
